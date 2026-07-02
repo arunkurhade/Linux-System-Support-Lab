@@ -1,0 +1,11 @@
+Environment_Report_Question-1
+
+1)	Executed the 'id' command to confirm the active username, UID, GID, and associated supplementary groups for the current session.
+
+2)	Used 'echo $SHELL' to verify the environment variable pointing to the default command execution shell interface (e.g., /bin/bash).
+
+3)	Ran 'pwd' to output the absolute path of the directory currently being operated in.
+
+4)	Used 'ls -la' to display all files and directories, including hidden dotfiles, along with their permission profiles.
+
+5)	Transmitted 4 ICMP echo packets to google.com via 'ping' to confirm that external network access and DNS resolution are functioning properly.
