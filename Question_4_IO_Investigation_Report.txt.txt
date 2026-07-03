@@ -1,0 +1,15 @@
+
+QUESTION 4: FILE ACCESS AND I/O INVESTIGATION REPORT
+
+
+1. Open Files Identified (Sample Window):
+Observation: Ran 'lsof' to trace active application file descriptor channels mapping directly to current user activities.
+
+2. Resource Limits Observed:
+Observation: Checked 'ulimit -n' to confirm the maximum upper boundary allocation for simultaneous open file streams.
+
+3. Redirection Execution Results:
+Observation: Validated standard I/O streams separation by isolating valid data outputs using '>' (Descriptor 1) and dumping diagnostic runtime errors using '2>' (Descriptor 2).
+
+4. Linux I/O Summary:
+Linux maps open channels to integer abstractions called File Descriptors (0: stdin, 1: stdout, 2: stderr). Applications track files through these descriptors using process tables monitored via kernel configurations.
