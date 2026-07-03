@@ -1,0 +1,18 @@
+
+QUESTION 2: SECURE PROJECT WORKSPACE SETUP REPORT
+
+
+1. Umask Value Used:
+Observation: Checked the current user mask value which dictates default creation permissions for new files and folders.
+
+2. Directory Structure Created:
+Created a directory named 'secure_project' containing 'plan.txt'.
+
+3. File Permissions and Ownership Before Modification:
+Observation: Observed standard broad permissions granted by default system access settings.
+
+4. File Permissions and Ownership After Modification:
+Observation: Utilized 'chmod' to isolate the directory (700) and file (600), ensuring strictly authorized access.
+
+5. Security Explanation:
+By removing group and public permissions (rwx), unauthorized users on the shared system cannot peak, alter, or execute any assets residing within this workspace folder.
