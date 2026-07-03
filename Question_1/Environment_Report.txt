@@ -9,3 +9,25 @@ Environment_Report_Question-1
 4)	Used 'ls -la' to display all files and directories, including hidden dotfiles, along with their permission profiles.
 
 5)	Transmitted 4 ICMP echo packets to google.com via 'ping' to confirm that external network access and DNS resolution are functioning properly.
+
+
+
+LINUX ENVIRONMENT VERIFICATION REPORT
+
+1. User Details:
+   - Username: [Your Username from 'id']
+   - Associated Groups: [Your Groups from 'id']
+
+2. Shell Environment:
+   - Active Shell: [Your Shell from 'echo $SHELL']
+
+3. Working Directory:
+   - Current Path: [Your Path from 'pwd']
+
+4. Workspace Audit:
+   - Found [Number] files and directories during analysis.
+
+5. Network Connectivity Status:
+   - Status: Active / Reachable
+   - Packet Loss: 0% 
+
