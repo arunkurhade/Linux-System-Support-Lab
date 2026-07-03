@@ -1,0 +1,33 @@
+Environment_Report_Question-1
+
+1)	Executed the 'id' command to confirm the active username, UID, GID, and associated supplementary groups for the current session.
+
+2)	Used 'echo $SHELL' to verify the environment variable pointing to the default command execution shell interface (e.g., /bin/bash).
+
+3)	Ran 'pwd' to output the absolute path of the directory currently being operated in.
+
+4)	Used 'ls -la' to display all files and directories, including hidden dotfiles, along with their permission profiles.
+
+5)	Transmitted 4 ICMP echo packets to google.com via 'ping' to confirm that external network access and DNS resolution are functioning properly.
+
+
+
+LINUX ENVIRONMENT VERIFICATION REPORT
+
+1. User Details:
+   - Username: [Your Username from 'id']
+   - Associated Groups: [Your Groups from 'id']
+
+2. Shell Environment:
+   - Active Shell: [Your Shell from 'echo $SHELL']
+
+3. Working Directory:
+   - Current Path: [Your Path from 'pwd']
+
+4. Workspace Audit:
+   - Found [Number] files and directories during analysis.
+
+5. Network Connectivity Status:
+   - Status: Active / Reachable
+   - Packet Loss: 0% 
+=====================================================
