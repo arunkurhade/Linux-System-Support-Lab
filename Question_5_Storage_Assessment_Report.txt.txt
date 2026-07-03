@@ -1,0 +1,17 @@
+
+QUESTION 5: STORAGE HEALTH ASSESSMENT REPORT
+
+
+1. Storage Devices Configuration (lsblk):
+
+Observation: Inspected structural raw storage device hierarchies and available local disks partition configurations.
+
+2. File System Space Utilization (df -h):
+
+Observation: Analyzed overall disk volume sizes, consumption patterns, and capacity safety thresholds.
+
+3. Inode Volume Consumption Metrics (df -i):
+Observation: Evaluated index-node allocation tracking tables to ensure metadata tables aren't saturated despite having raw blocks remaining.
+
+4. Health Recommendations:
+Set up automated alert log sweeps, purge orphaned container caches, and balance high-occupancy mount volumes to optimize storage arrays health profiles.
