@@ -1,0 +1,12 @@
+
+QUESTION 3: FILE SYSTEM AND LINK ANALYSIS REPORT
+
+
+1. Inode Numbers and Metadata Collection:
+Observation: Tracked inode allocations. Notice that the hard link directly mirrors the original file's inode number, whereas the symbolic link occupies its own distinct block.
+
+2. Effect of Deleting the Original File:
+Observation: Attempting to access the symlink fails with a "No such file or directory" warning because its text pointer is broken. The hard link remains accessible and intact.
+
+3. Conclusions:
+Hard links point strictly to the data inode on disk, maintaining full structural integrity even if the originating pointer mapping is deleted. Symbolic links function purely as shortcuts via a pathname reference.
